@@ -14,8 +14,16 @@ namespace MojProjekt
 
             int num1, num2;
 
-            num1 = int.Parse(in1);
-            num2 = int.Parse(in2);
+            try
+            {
+                num1 = int.Parse(in1);
+                num2 = int.Parse(in2);
+            }
+            catch
+            {
+                Console.WriteLine("Error: These are not integers.");
+                return;
+            }
             
             int total = StatisticsHelper.Sum(num1, num2);
             Console.WriteLine($"Sum: {total}");
