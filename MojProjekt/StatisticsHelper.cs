@@ -6,5 +6,15 @@ namespace MojProjekt
         {
             return x + y;
         }
+
+        public static double CalculateAverage(int[] values)
+        {
+
+            int sum = 0;
+            foreach (var v in values)
+                sum += v;
+
+            return (double)sum / values.Length;
+        }
     }
 }
