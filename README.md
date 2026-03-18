@@ -16,3 +16,7 @@ Z powodu rozdzielenia się gałęzi na 2 różne struktury (w mainie i max-forwa
 
 ## Update
 Dodano metodę znajdującą najmniejszą liczba w branchu feature-min.
+
+## merge a rebase
+Merge tworzy dodatkowy commit range i zachowue historię rozgałęzień, natomiast
+rebase przenosi commity na górę gałęzi, na której się znajdujemy, co powoduje, że historia staje się liniowa. Po rebase można zrobić merge jako fast-forward.
