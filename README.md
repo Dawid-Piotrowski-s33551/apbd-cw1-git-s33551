@@ -12,7 +12,7 @@ Prosta aplikacja konsolowa w C#.
 Dodano metodę znajdującą największą liczba w branchu feature-max.
 
 ## Merge bez fast-forward
-Z powodu rozdzielenia się gałęzi na 2 różne struktury (w mainie i max-forward pojawiły się różne commity), Git utworzył dodatkowy commit merge, aby je połączyć i z powrotem mieć jedną połączoną strukturę.
+Z powodu rozdzielenia się gałęzi na 2 różne struktury (w mainie i max-forward pojawiły się różne commity), Git utworzył dodatkowy commit merge, aby je połączyć i z powrotem mieć jedną połączoną strukturę. Fast-forward wykona się, jeśli commity znajdują się tylko na jednej gałęzi, a zwykły merge, gdy występują na obu.
 
 ## Update
 Dodano metodę znajdującą najmniejszą liczba w branchu feature-min.
