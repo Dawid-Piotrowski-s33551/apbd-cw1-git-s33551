@@ -43,6 +43,7 @@ namespace MojProjekt
                     min = v;
             }
 
+            Console.WriteLine("Min calculation completed on main branch");
             return min;
         }
     }
