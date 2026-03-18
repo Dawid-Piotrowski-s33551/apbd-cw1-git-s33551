@@ -9,7 +9,10 @@ Prosta aplikacja konsolowa w C#.
 - znajdywanie największej liczby z tablicy liczb
 
 ## Update
-Dodano metodę znajdującą największą liczba w branchu max-feature.
+Dodano metodę znajdującą największą liczba w branchu feature-max.
 
 ## Merge bez fast-forward
 Z powodu rozdzielenia się gałęzi na 2 różne struktury (w mainie i max-forward pojawiły się różne commity), Git utworzył dodatkowy commit merge, aby je połączyć i z powrotem mieć jedną połączoną strukturę.
+
+## Update
+Dodano metodę znajdującą najmniejszą liczba w branchu feature-min.
