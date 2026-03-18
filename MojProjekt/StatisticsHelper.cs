@@ -43,6 +43,7 @@ namespace MojProjekt
                     min = v;
             }
 
+            Console.WriteLine("Min calculated on feature-conflict branch");
             return min;
         }
     }
